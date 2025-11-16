@@ -11,7 +11,7 @@ export default function CTA() {
                 <input type="email" placeholder="you@firm.com" className="flex-1 rounded-md border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gray-900" />
                 <button type="button" className="rounded-md bg-gray-900 text-white px-5 py-3 text-sm font-medium hover:bg-gray-800">Submit</button>
               </form>
-              <p className="mt-2 text-xs text-gray-500">By submitting you agree to receive communications from HoloCube Capital.</p>
+              <p className="mt-2 text-xs text-gray-500">By submitting you agree to receive communications from 0xCapital.</p>
             </div>
             <div className="h-52 md:h-full rounded-2xl bg-gradient-to-tr from-fuchsia-500/20 via-cyan-400/20 to-blue-600/20 border border-gray-200"></div>
           </div>

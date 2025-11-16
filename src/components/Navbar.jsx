@@ -17,7 +17,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <a href="#" className="flex items-center space-x-2">
             <div className="h-8 w-8 rounded-md bg-gradient-to-tr from-fuchsia-500 via-cyan-400 to-blue-600 shadow-inner"></div>
-            <span className="font-semibold tracking-tight text-gray-900">HoloCube Capital</span>
+            <span className="font-semibold tracking-tight text-gray-900">0xCapital</span>
           </a>
 
           <nav className="hidden md:flex items-center space-x-8 text-sm">
@@ -44,7 +44,7 @@ export default function Navbar() {
             <div className="flex items-center justify-between h-16">
               <a href="#" className="flex items-center space-x-2">
                 <div className="h-8 w-8 rounded-md bg-gradient-to-tr from-fuchsia-500 via-cyan-400 to-blue-600"></div>
-                <span className="font-semibold tracking-tight text-gray-900">HoloCube Capital</span>
+                <span className="font-semibold tracking-tight text-gray-900">0xCapital</span>
               </a>
               <button onClick={() => setOpen(false)} className="inline-flex p-2 rounded-md border border-gray-200 bg-white">
                 <X className="h-5 w-5" />
