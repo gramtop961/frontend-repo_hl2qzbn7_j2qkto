@@ -13,7 +13,7 @@ export default function CTA() {
               </form>
               <p className="mt-2 text-xs text-gray-500">By submitting you agree to receive communications from 0xCapital.</p>
             </div>
-            <div className="h-52 md:h-full rounded-2xl bg-gradient-to-tr from-fuchsia-500/20 via-cyan-400/20 to-blue-600/20 border border-gray-200"></div>
+            <div className="h-52 md:h-full rounded-2xl bg-gradient-to-tr from-gray-200 via-gray-100 to-white border border-gray-200"></div>
           </div>
         </div>
       </div>

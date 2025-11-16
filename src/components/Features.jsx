@@ -1,33 +1,33 @@
-import { ShieldCheck, LineChart, Cpu, Layers3, Gauge, Zap } from 'lucide-react'
+import { Shield, BarChart3, Brain, Server, Activity, Clock } from 'lucide-react'
 
 const features = [
   {
-    icon: ShieldCheck,
+    icon: Shield,
     title: 'Institutional Risk',
     desc: 'Portfolio construction, limits and drawdown controls built to institutional standards.'
   },
   {
-    icon: LineChart,
+    icon: BarChart3,
     title: 'Multi-Strategy',
     desc: 'Market neutral, momentum, and basis carry strategies across spot and derivatives.'
   },
   {
-    icon: Cpu,
+    icon: Brain,
     title: 'Quant Research',
     desc: 'Signal engineering from market microstructure, on-chain flows, and macro regime data.'
   },
   {
-    icon: Layers3,
+    icon: Server,
     title: 'Execution Stack',
     desc: 'Low-latency, exchange-native routing with smart order execution and slippage controls.'
   },
   {
-    icon: Gauge,
+    icon: Activity,
     title: 'Risk Engine',
     desc: 'Real-time exposure, scenario analysis, and stress testing to manage tail risk.'
   },
   {
-    icon: Zap,
+    icon: Clock,
     title: '24/7 Ops',
     desc: 'Automated monitoring, alerting, and disaster recovery for around-the-clock markets.'
   }
@@ -44,8 +44,8 @@ export default function Features() {
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map(({ icon: Icon, title, desc }) => (
-            <div key={title} className="group rounded-2xl border border-gray-200 p-6 hover:shadow-lg transition-shadow">
-              <div className="h-11 w-11 rounded-lg bg-gradient-to-tr from-fuchsia-500 via-cyan-400 to-blue-600 text-white flex items-center justify-center">
+            <div key={title} className="group rounded-2xl border border-gray-200 p-6 hover:shadow-md transition-shadow bg-white">
+              <div className="h-11 w-11 rounded-lg bg-gray-900 text-white flex items-center justify-center">
                 <Icon className="h-6 w-6" />
               </div>
               <h3 className="mt-4 text-lg font-semibold text-gray-900">{title}</h3>

@@ -12,11 +12,11 @@ export default function Navbar() {
   ]
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-40 backdrop-blur bg-white/60 border-b border-white/30">
+    <header className="fixed top-0 left-0 right-0 z-40 backdrop-blur bg-white/70 border-b border-gray-200">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <a href="#" className="flex items-center space-x-2">
-            <div className="h-8 w-8 rounded-md bg-gradient-to-tr from-fuchsia-500 via-cyan-400 to-blue-600 shadow-inner"></div>
+            <div className="h-8 w-8 rounded-md bg-gray-900 shadow-inner"></div>
             <span className="font-semibold tracking-tight text-gray-900">0xCapital</span>
           </a>
 
@@ -31,28 +31,28 @@ export default function Navbar() {
             </a>
           </nav>
 
-          <button onClick={() => setOpen(true)} className="md:hidden inline-flex p-2 rounded-md bg-white/70 border border-gray-200">
-            <Menu className="h-5 w-5" />
+          <button onClick={() => setOpen(true)} className="md:hidden inline-flex p-2 rounded-md bg-white/80 border border-gray-300">
+            <Menu className="h-5 w-5 text-gray-900" />
           </button>
         </div>
       </div>
 
       {/* Mobile */}
       {open && (
-        <div className="md:hidden fixed inset-0 z-50 bg-white/90 backdrop-blur">
+        <div className="md:hidden fixed inset-0 z-50 bg-white/95 backdrop-blur">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
               <a href="#" className="flex items-center space-x-2">
-                <div className="h-8 w-8 rounded-md bg-gradient-to-tr from-fuchsia-500 via-cyan-400 to-blue-600"></div>
+                <div className="h-8 w-8 rounded-md bg-gray-900"></div>
                 <span className="font-semibold tracking-tight text-gray-900">0xCapital</span>
               </a>
-              <button onClick={() => setOpen(false)} className="inline-flex p-2 rounded-md border border-gray-200 bg-white">
-                <X className="h-5 w-5" />
+              <button onClick={() => setOpen(false)} className="inline-flex p-2 rounded-md border border-gray-300 bg-white">
+                <X className="h-5 w-5 text-gray-900" />
               </button>
             </div>
             <div className="py-4 space-y-4">
               {navItems.map((item) => (
-                <a key={item.label} href={item.href} onClick={() => setOpen(false)} className="block text-lg text-gray-800">
+                <a key={item.label} href={item.href} onClick={() => setOpen(false)} className="block text-lg text-gray-900">
                   {item.label}
                 </a>
               ))}
