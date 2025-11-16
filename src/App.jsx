@@ -1,7 +1,10 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Strategy from './components/Strategy'
+import Partners from './components/Partners'
 import Features from './components/Features'
 import Performance from './components/Performance'
+import Testimonials from './components/Testimonials'
 import CTA from './components/CTA'
 
 function App() {
@@ -10,8 +13,11 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <Partners />
+        <Strategy />
         <Features />
         <Performance />
+        <Testimonials />
         <CTA />
       </main>
       <footer className="border-t border-gray-200">

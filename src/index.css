@@ -22,6 +22,17 @@
   }
 }
 
+/* Scroller for partners marquee */
+.marquee {
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
 /* Custom utility classes for shadcn/ui patterns */
 @layer utilities {
   .animate-in {
